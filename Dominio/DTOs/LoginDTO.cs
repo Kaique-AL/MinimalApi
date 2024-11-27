@@ -9,5 +9,6 @@ namespace MinimalApi.DTOs
 
         [Required(ErrorMessage = "Senha é obrigatória.")]
         public string Senha { get; set; }
+        // public string Perfil { get; set; }
     }
 }
